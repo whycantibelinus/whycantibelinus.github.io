@@ -38,6 +38,18 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
 
+# Navigation links
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "GitHub"
+    url: https://github.com/whycantibelinus
+  - title: "Codex"
+    url: /year-archive/
+  - title: "Codex"
+    url: /codex/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
