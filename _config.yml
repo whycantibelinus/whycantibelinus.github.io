@@ -28,7 +28,9 @@ github_username:  whycantibelinus
 linkedin_username: david-walkup-184007221
 
 # Build settings
-theme: mmistake-jekyll-theme
+theme: mmistakes-jekyll-theme
+minimal_mistakes_skin: "dark"
+color_scheme_toggle: false
 plugins:
   - jekyll-feed
 
