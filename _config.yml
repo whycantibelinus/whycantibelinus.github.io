@@ -21,17 +21,21 @@
 title: "David Walkup"
 email: willdamnolcorp@gmail.com
 description: "Self taught dev building the Replicant engine. Exploring compression, AI, and rogue thoughts on digital freedom."
-baseurl: 
+baseurl: ""
 url: "https://whycantibelinus.github.io"
 twitter_username: whycantibelinus
 github_username:  whycantibelinus
 linkedin_username: david-walkup-184007221
 
 # Build settings
-theme: mmistakes-jekyll-theme
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 color_scheme_toggle: false
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
   - jekyll-feed
 
 # Exclude from processing.
